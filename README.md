@@ -5,11 +5,7 @@ The SDK will always use the best technology to deliver your mission critical dat
 
 ### Download
 Download the latest official release of Wit SDK and get started!
-<<<<<<< HEAD
 [[Download v0.3 "Big Bang"](http://www.witsdk.com/release/wit.bundle.min.js)](https://witsdk.com/release/wit.bundle.min.js)
-=======
-[[Download v0.3 "Big Bang"](https://witsdk.com/release/wit.bundle.min.js)]
->>>>>>> update docs
 
 Latest Version: 0.3 "Big Bang"
 Released: 2016-11-16
