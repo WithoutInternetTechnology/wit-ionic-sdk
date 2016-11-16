@@ -10,7 +10,7 @@ Download the latest official release of Wit SDK and get started!
 Latest Version: 0.3 "Big Bang"
 Released: 2016-11-16
 
-### What can do WIT for me?
+### What can WIT do for me?
 
 It gives you the unique value to be there for your customers anytime, even when they are offline.
 You can make your service available for emerging markets, traveler abroad and anybody who have a smartphone which is not connected to the Internet.
