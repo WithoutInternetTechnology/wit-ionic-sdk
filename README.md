@@ -1,5 +1,5 @@
-# Overview
 ![Wit SDK for Ionic Framework](http://witsdk.com/images/wit-banner-beta.png)
+
 Welcome! WIT is a powerful mobile SDK that helps you build mobile apps which work offline and in real time.
 The SDK will always use the best technology to deliver your mission critical data.
 
@@ -20,7 +20,7 @@ WIT uses SMS to proxy APIs calls to your backend, the data will be received thro
 
 ### How should I use WIT?
 
-We suggest to proxy **ONLY light APIs requests**, the performance of receiving the data is proportionally related the amount of data. This is service is meant to be used for **mission critical data**.
+We suggest to proxy **ONLY light APIs requests**, the performance of receiving the data is proportionally related the amount of data. This service is meant to be used for **mission critical data**.
 
 We can help in optimizing your request to be faster and use less SMS, [[contact us](alessio@witsdk.com)]() for more informations.
 
