@@ -91,7 +91,7 @@ cordova plugin add cordova-plugin-network-information
 
 ```$wit``` is the service which will replace ```$http``` to make your http calls support offline mode.
 
-```$wit``` works similarly to ```$http``` Angular Service does, good news is you already know how to use it!
+```$wit``` works very similarly to the way ```$http``` Angular Service does so the good news is you already know how to use it!
 
 Here an example of a regular http post request:
 
@@ -102,7 +102,7 @@ $http.post('http://myawesomeservice/api/v1/goodstuff, payload)
 });
 ```
 
-Let’s now see how a WIT request looks like:
+Let’s now see the equivalent request using WIT:
 
 ```
 $wit.request({
