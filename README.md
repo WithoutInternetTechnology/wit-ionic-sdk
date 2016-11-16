@@ -79,10 +79,9 @@ $http.post('http://myawesomeservice/api/v1/goodstuff, payload)
 });
 ```
 
-Let’s now see how a **WIT post **request looks like:
+Let’s now see how a WIT request looks like:
 
 ```
-
 $wit.request({
 	"url": "your.endopoint.url",
 	"type": "POST||GET||PATCH||PUT||DELETE",
