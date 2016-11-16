@@ -118,6 +118,75 @@ payload)
 
 Yep, it's that easy. WIT will return a promise with the data you normally get back from an http call.
 
+## Examples
+
+### PATCH Request
+```
+$wit.request({
+    type:'patch',
+    url:'jsonplaceholder.typicode.com/posts/1'
+  },{
+    title: 'alto',
+    body: 'barrio'
+  }).then(function(res){
+    $scope.hide();
+    console.log('Generic PATCH request response: ',res);
+  });
+```
+
+### GET Request
+```
+  $wit.request({
+    type:'get',
+    url:'jsonplaceholder.typicode.com/posts/12'
+  }).then(function(res){
+    $scope.hide();
+    console.log('Generic GET request response: ',res);
+  });
+```
+
+### DELETE Request
+```
+  $wit.request({
+    type:'delete',
+    url:'jsonplaceholder.typicode.com/posts/1'
+  }).then(function(res){
+    $scope.hide();
+    console.log('Generic DELETE request response: ',res);
+  });
+```
+
+### POST Request
+```
+  $wit.request({
+    type:'post',
+    url:'jsonplaceholder.typicode.com/posts'
+  },{
+    title: 'foo',
+    body: 'bar',
+    userId: 1
+  }).then(function(res){
+    $scope.hide();
+    console.log('Generic POST request response: ',res);
+  });
+```
+
+### PUT Request
+```
+  $wit.request({
+    type:'put',
+    url:'jsonplaceholder.typicode.com/posts/1'
+  },{
+    id: 1,
+    title: 'foo',
+    body: 'bar',
+    userId: 1
+  }).then(function(res){
+    $scope.hide();
+    console.log('Generic PUT request response: ',res);
+  });
+```
+
 ### Support
 This version of the SDK supports Ionic 1.x on Android < 6. It will work on real android device, the android emulator and the browser will not work because the client needs to be able to receive SMS.
 
