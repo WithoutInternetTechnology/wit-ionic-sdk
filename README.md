@@ -71,7 +71,7 @@ cordova plugin add cordova-plugin-network-information
 
 Here an example of a regular http post request:
 
-```javascript
+```
 $http.post('http://myawesomeservice/api/v1/goodstuff, payload)
 .then(function(data){
   console.log("I do things with the data", data);                      
@@ -80,10 +80,9 @@ $http.post('http://myawesomeservice/api/v1/goodstuff, payload)
 
 Let’s now see how a **WIT post **request looks like:
 
-```javascript
+```
 
-$wit.request('http://myawesomeservice/api/v1/goodstuff,
-{
+$wit.request({
 	"url": "your.endopoint.url",
 	"type": "POST||GET||PATCH||PUT||DELETE",
 	"secure": "true||false" // https? default is false 
