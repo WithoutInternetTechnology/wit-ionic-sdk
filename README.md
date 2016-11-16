@@ -15,6 +15,29 @@ Released: 2016-11-16
 It gives you the unique value to be there for your customers anytime, even when they are offline.
 You can make your service available for emerging markets, traveler abroad and anybody who have a smartphone which is not connected to the Internet.
 
+### How does it work?
+WIT uses SMS to proxy APIs calls to your backend, the data will be received through a promise as a regular http requests.
+
+### How should I use WIT?
+
+We suggest to proxy **ONLY light APIs requests**, the performance of receiving the data is proportionally related the amount of data. This is service is meant to be used for **mission critical data**.
+
+We can help in optimizing your request to be faster and use less SMS, [[contact us](alessio@witsdk.com)]() for more informations.
+
+#### Good examples are:
+
+* Taxi hailing apps
+* Emergency apps
+* Logistic apps to monitor GPS position
+* Booking Systems inside apps
+* Mobile wallets
+* Delivery apps
+* IoT management apps
+* Stock Options apps
+* Weather apps
+* Heartquake monitoring apps
+* You name it...
+
 ### Things to keep in mind:
 
 * WIT-SDK works on Android < 6, support for Android 6 will come soon.
