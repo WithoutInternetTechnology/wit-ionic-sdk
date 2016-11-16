@@ -5,7 +5,11 @@ The SDK will always use the best technology to deliver your mission critical dat
 
 ### Download
 Download the latest official release of Wit SDK and get started!
+<<<<<<< HEAD
 [[Download v0.3 "Big Bang"](http://www.witsdk.com/release/wit.bundle.min.js)](https://witsdk.com/release/wit.bundle.min.js)
+=======
+[[Download v0.3 "Big Bang"](https://witsdk.com/release/wit.bundle.min.js)]
+>>>>>>> update docs
 
 Latest Version: 0.3 "Big Bang"
 Released: 2016-11-16
@@ -58,7 +62,7 @@ Include ```wit.bundle.min.js``` in your index.html file  after your AngularJS / 
 
 ```html
 <script src="lib/ionic/js/ionic.bundle.js"></script>
-<script src="wit-sdk/dist/wit.bundle.min.js"></script>
+<script src="wit.bundle.min.js"></script>
 ```
 
 ### Inject as an Angular dependency
@@ -129,7 +133,6 @@ $wit.request({
     title: 'alto',
     body: 'barrio'
   }).then(function(res){
-    $scope.hide();
     console.log('Generic PATCH request response: ',res);
   });
 ```
@@ -140,7 +143,6 @@ $wit.request({
     type:'get',
     url:'jsonplaceholder.typicode.com/posts/12'
   }).then(function(res){
-    $scope.hide();
     console.log('Generic GET request response: ',res);
   });
 ```
@@ -151,7 +153,6 @@ $wit.request({
     type:'delete',
     url:'jsonplaceholder.typicode.com/posts/1'
   }).then(function(res){
-    $scope.hide();
     console.log('Generic DELETE request response: ',res);
   });
 ```
@@ -166,7 +167,6 @@ $wit.request({
     body: 'bar',
     userId: 1
   }).then(function(res){
-    $scope.hide();
     console.log('Generic POST request response: ',res);
   });
 ```
@@ -182,7 +182,6 @@ $wit.request({
     body: 'bar',
     userId: 1
   }).then(function(res){
-    $scope.hide();
     console.log('Generic PUT request response: ',res);
   });
 ```
