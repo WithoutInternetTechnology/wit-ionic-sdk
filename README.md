@@ -12,15 +12,15 @@ Released: 2016-11-16
 
 ### What can WIT do for me?
 
-It gives you the unique value to be there for your customers anytime, even when they are offline.
-You can make your service available for emerging markets, traveler abroad and anybody who have a smartphone which is not connected to the Internet.
+It gives you the unique value to stay connected to your customers anytime, anywhere even when they are offline. You can make your service available for emerging markets, travellers abroad and anyone who has a smartphone not connected to the Internet.
 
 ### How does it work?
-WIT uses SMS to proxy APIs calls to your backend, the data will be received through a promise as a regular http requests.
+
+WIT uses SMS to proxy APIs calls to your backend, the data is received through a promise like regular http requests.
 
 ### How should I use WIT?
 
-We suggest to proxy **ONLY light APIs requests**, the performance of receiving the data is proportionally related the amount of data. This service is meant to be used for **mission critical data**.
+We suggest you proxy **ONLY light APIs requests** as the latency receiving the data is proportionally related to the amount of data making up the request. This service is meant to be used for **mission critical data**.
 
 We can help in optimizing your request to be faster and use less SMS, [[contact us](alessio@witsdk.com)]() for more informations.
 
