@@ -22,7 +22,7 @@ WIT uses SMS to proxy APIs calls to your backend, the data is received through a
 
 We suggest you proxy **ONLY light APIs requests** as the latency receiving the data is proportionally related to the amount of data making up the request. This service is meant to be used for **mission critical data**.
 
-We can help in optimizing your request to be faster and use less SMS, [[contact us](alessio@witsdk.com)]() for more informations.
+We can help in optimizing your request to be faster and use less SMS (up to 70%), [[contact us](alessio@witsdk.com)]() for more informations.
 
 #### Good examples are:
 
