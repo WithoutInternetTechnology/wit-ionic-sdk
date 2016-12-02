@@ -185,5 +185,5 @@ $wit.request({
 ### Support
 This version of the SDK supports Ionic 1.x on Android < 6. It will work on real android device, the android emulator and the browser will not work because the client needs to be able to receive SMS.
 
-### Licence
+### License
 Copyright (C) WIT Technology, LTD - All Rights Reserved
